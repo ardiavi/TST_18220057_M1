@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  folderkosong:
+    image: folderkosong
+    build:
+      context: .
+      dockerfile: ./Dockerfile
